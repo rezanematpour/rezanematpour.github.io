@@ -196,9 +196,6 @@ $$
 
 For $\ket{\psi} = \alpha\ket{0} + \beta\ket{1}$:
 
-$$
-\rho_{\psi} = 1 \times \ket{\psi}\bra{\psi} = \begin{pmatrix}\alpha \\ \beta\end{pmatrix} \begin{pmatrix}\alpha^{*} & \beta^{*}\end{pmatrix} = \begin{pmatrix}|\alpha|^2 & \alpha\beta^{*} \\ \beta\alpha^{*} & |\beta|^2\end{pmatrix}
-$$
 
 Note: $p_i = 1$ because it's a pure state with no classical probability.
 
