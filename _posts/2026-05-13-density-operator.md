@@ -3,6 +3,7 @@ title: "Density operator"
 date: 2026-05-13 12:00:00 +0000
 categories: [Quantum Computing, Density Operators]
 tags: [quantum, measurement, density]
+math: true
 ---
 
 # 1. Defining an ensemble and the density operator
@@ -20,7 +21,7 @@ tags: [quantum, measurement, density]
 # 2. Unitary evolution in the density‐matrix picture
 Suppose that we have a closed quantum system and it's evolution is described by the unitary operator $U$. 
 If our initial state is $\ket{{\psi_{i}}}$ with the probability $p_{i}$, then after the evolution the system will be in the state $U\ket{{\psi_{i}}}$ with the probability $p_{i}$. So the evolution of the density matrix $\rho$ is described by $$U\rho=\sum_{i} p_{i}(U\ket{{\psi_{i}}})(\bra{{{\psi_{i}}}}U^{\dagger})=U\bigg(\sum_{i}p_{i}\ket{{\psi_{i}}}\bra{\psi_{i}}\bigg)U^{\dagger}=U\rho U^{\dagger} .$$
-> [!hint] Why $U\rho=\sum pU\ket{\psi}\bra{\psi}U^{\dagger}$?
+Why $U\rho=\sum pU\ket{\psi}\bra{\psi}U^{\dagger}$?{: .prompt-tip }
 >$$\boxed{\begin{aligned}\ket{{\psi}}'&=U\ket{{\psi}}\\\bra{\psi}'&=(\ket{\psi}')^{\dagger}=\bra{\psi}U^{\dagger}\end{aligned}}$$
 >By definition, a closed‐system unitary acts on any operator $P$ as
 $P  ⟼  U P U^{\dagger}$. Applied to the projector $P=\ket{{\psi}}\bra{\psi}$ gives $U\ket{{\psi}}\bra{\psi}U^{\dagger}=\ket{\psi}'\bra{\psi}'$.
@@ -33,19 +34,19 @@ By the law of total probability the probability of obtaining result $m$ is $$\be
 &=\mathrm{Tr}(M^{\dagger}_{m}M_{m}\rho).\end{aligned}$$
 If the initial state was $\ket{{\psi_{i}}}$ then the state after obtaining the result $m$ is $$\ket{{\psi^m_{i}}}=\frac{M_{m}\ket{{\psi_{i}}}}{\sqrt{\braket{ \psi_{i}|M^{\dagger}_{m}M_{m}|\psi_{i}}}}.$$
 Thus, after a measurement which yields the result $m$ we have an ensemble of states $\ket{\psi^{m}_{i}}$ with respective probabilities $p(i|m)$. The corresponding density operator $\rho_{m}$ is therefore $$\begin{aligned}\rho_{m}&=\sum_{i}p({i|m})\ket{\psi_{i}^m}\bra{\psi_{i}^m}\\&=\sum_{i}p(i|m)\cdot\frac{M_{m}\ket{{\psi_{i}}}\bra{\psi_{i}}M_{m}^{\dagger} }{\sqrt{\braket{ \psi_{i}|M^{\dagger}_{m}M_{m}|\psi_{i}}}}\\ \underrightarrow{p(i|m)=\frac{p(m,i)}{p(m)}=\frac{{p(m|i)\cdot p_{i}}}{p(m)}} \\&=\sum_{i}p_{i}\cdot\frac{M_{m}\ket{{\psi_{i}}}\bra{\psi_{i}}M^{\dagger}_{m}}{\mathrm{Tr}(M^{\dagger}_{m}M_{m}\rho)}\\&=\frac{M_{m}\rho M_{m}^{\dagger}}{\mathrm{Tr}(M^{\dagger}_{m}M_{m}\rho)}.\end{aligned}$$
->[! Danger]
+
 >The post-measurement STATE should be:
 >- For **kets**: divided with $\sqrt{ p(m) }$ for normalization: $\ket{\psi^m}=\frac{M_{m}\ket{{\psi}}}{\sqrt{ p(m) }}$
 >- For **density** matrices: no need, we have density operator normalization: $\rho_{m}=\ket{\psi_{i}^m}\bra{\psi^m}=\frac{M_m\ket{{\psi}}}{\sqrt{ p(m) }}\cdot\frac{\bra{{\psi}}M^{\dagger}_m}{\sqrt{ p(m) }}=\frac{M_{m}\ket{{\psi}}\bra{\psi}M^{\dagger}_{m}}{p(m)}=\frac{M_{m}\rho M^{\dagger}_{m}}{p(m)}$
->
+>{: .prompt-tip }
 
 
 
-> Pure vs Mixed state{: .prompt-tip }
+> Pure vs Mixed state
 > If we know the exact state $\ket{{\psi}}$ of a quantum system; we say it is in a *pure state* and its density operator is $\rho=\ket{{\psi}}\bra{\psi}$. 
 > Otherwise, $\rho$ is in a *mixed state*; it is said to be a mixture of the different pure states in the ensemble for $ρ$. 
 > - pure state satisfies $tr(ρ^2 ) = 1$. 
-> - mixed state satisfies $tr(ρ^2 ) < 1$. 
+> - mixed state satisfies $tr(ρ^2 ) < 1$. {: .prompt-tip }
 
 > Imagine a quantum system is prepared in the state $\rho_{i}$ with probability $p_{i}$.
 > The system may be described by the density matrix $\sum_{i}p_{i}\rho_{i}$. 
@@ -85,12 +86,13 @@ If the evolution of a quantum system is described by the unitary $U$, we define 
 ---
 ## Measurement
 
->[! Hint] Some basic stuff
+>Some basic stuff
 >- $\ket{{\psi_{i}}}\equiv \rho_{i}=\ket{{\psi_{i}}}\bra{\psi_{i}}$
 >- $\mathrm{Tr}(A)=\sum_{j}\braket{ j|A |j  }$ where $\{\ket{{j}}\}$ is some orthonormal basis.
 >	- Example: $\mathrm{Tr}(A_{2\times2})=\braket{ 0|A |0  }+\braket{ 1|A |1  }$
 >- $\sum_{j}\ket{j}\bra{j}=I$
 >- $\mathrm{Tr}(ABC)=\mathrm{Tr}(BCA)$
+>- {: .prompt-tip }
 
 Suppose that we perform a measurement by operator $M_{m}$. If the initial state is a pure state $\ket{{\psi_{}}}$, then the probability of getting $m$ is $$\begin{aligned}p(m|i)&=\braket{ \psi_{} |M_{m}^{\dagger}M_{m}|\psi_{}}\\&=\sum_{j}\braket{\psi_{}|M_{m}^{\dagger}|j}\braket{j|M_{m}|\psi_{}}\\&=\sum_{j}\braket{j|M_{m}|\psi_{}}\braket{\psi_{}|M_{m}^{\dagger}|j}\\&={\mathrm{Tr}(M_{m}\ket{{\psi_{}}}\bra{\psi_{}}M_{m}^{\dagger})}\\&=\boxed{\mathrm{Tr}(M_{m}^{\dagger}M_{m}\ket{\psi_{}}\bra{\psi_{}}  )}.\end{aligned}$$and density matrix after the measurement that obtained result $m$ and the initial state was pure state $\ket{{\psi_{}}}$ can be described as $$\ket{{\psi_{}^m}}=\frac{M_{m}\ket{{\psi_{}}}}{\sqrt{ \braket{\psi_{}|M_{m}^{\dagger}M_{m}|\psi_{}} }}.$$
 
@@ -138,8 +140,8 @@ Example of a mixed state:
 &=   \begin{pmatrix}0.5&0 \\0&0.5\end{pmatrix}
 \end{align}$$
 
->[! Note]
->The off-diagonal elements of the mixed state density matrix are **zero**.
+
+>The off-diagonal elements of the mixed state density matrix are **zero**.{: .prompt-tip }
 
 Suppose we have a pure state :$$\rho_{\psi}=\begin{pmatrix}a&b\\ c & d\end{pmatrix}$$
 - Diagonal elements are the probabilities; $a$ tells us the probability of outcome $\ket{0}$ and $d$ is the probability of $\ket{1}$.
