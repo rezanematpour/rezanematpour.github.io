@@ -75,7 +75,7 @@ Since $\braket{ \phi|\rho |\phi  }$ is non-negative, <font color="#00b050">densi
 
 >The eigenvalues of $\rho$ are probabilities (they lie in $[0,1]$ and sum to $1$).
 >The probability of measuring an outcome associated with projector $M$ is:$$
-\boxed{0\leq\mathrm{Tr}(Mρ)\leq 1}.$$
+{0\leq\mathrm{Tr}(Mρ)\leq 1}.$$
 >Pure states: $ρ^2=ρ$ (idempotent, trace=1).
 >Mixed states: $ρ^2≠ρ$ (trace still 1).
 
