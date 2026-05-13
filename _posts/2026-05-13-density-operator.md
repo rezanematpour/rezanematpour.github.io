@@ -43,7 +43,7 @@ $$
 > $$
 > 
 > By definition, a closed-system unitary acts on any operator $P$ as $P \longmapsto U P U^{\dagger}$. Applied to the projector $P=\ket{{\psi}}\bra{\psi}$ gives $U\ket{{\psi}}\bra{\psi}U^{\dagger}=\ket{\psi}'\bra{\psi}'$.
-{: .prompt-tip }
+
 
 ## 3. Measurement in the Density Operator Language
 
@@ -91,7 +91,7 @@ $$
 > $$
 > \rho_{m} = \frac{M_{m}\rho M_{m}^{\dagger}}{p(m)}
 > $$
-{: .prompt-danger }
+
 
 ## 4. Pure vs Mixed States
 
