@@ -27,6 +27,4 @@ $$.
 Any linear combination $$ \sum_i\alpha_i\ket{\psi_i} $$ is a superposition of the states $$ \ket{\psi_i} $$ with *amplitude* $$ \alpha_i $$ for the state $$ \ket{\psi_i} $$.
 	Example: 
   
-  $$
-  \frac{\ket{0}-\ket{1}}{\sqrt{2}}$ is a superposition of the states $\ket{0}$ and $\ket{1}$ with amplitudes $\alpha=\frac{1}{\sqrt{2}}$ and $\beta=-\frac{1}{\sqrt{2}}
-  $$. 
+  $$ \frac{\ket{0}-\ket{1}}{\sqrt{2}}$$ is a superposition of the states $$ \ket{0} $$ and $$ \ket{1} $$ with amplitudes $$ \alpha=\frac{1}{\sqrt{2}} $$ and $$ \beta=-\frac{1}{\sqrt{2}} $$. 
