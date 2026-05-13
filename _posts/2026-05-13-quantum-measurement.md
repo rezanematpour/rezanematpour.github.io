@@ -16,7 +16,7 @@ $$
 \ket{\psi}=\alpha\ket{0}+\beta\ket{1}
 $$
 
-**Normalization Condition:** $$ \ket{\psi} $$should be a unit vector ($$ \braket{\psi|\psi}=1 $$), so that 
+**Normalization Condition:** $$ \ket{\psi} $$ should be a unit vector ($$ \bra{\psi}\ket{\psi}=1 $$), so that 
 
 $$
 (\| \ket{\psi}\|=1)=(\sqrt{|\alpha|^2+|\beta|^2}=1)=(\sqrt{|\alpha|^2+|\beta|^2}^2=1^2)=|\alpha|^2+|\beta|^2=1
@@ -24,7 +24,7 @@ $$.
 
 
 # Superposition 
-Any linear combination$$ \sum_i\alpha_i\ket{\psi_i} $$is a superposition of the states$$ \ket{\psi_i} $$with *amplitude*$$ \alpha_i $$for the state$$ \ket{\psi_i} $$.
+Any linear combination $$ \sum_i\alpha_i\ket{\psi_i} $$ is a superposition of the states $$ \ket{\psi_i} $$ with *amplitude* $$ \alpha_i $$ for the state $$ \ket{\psi_i} $$.
 	Example: 
   
   $$
