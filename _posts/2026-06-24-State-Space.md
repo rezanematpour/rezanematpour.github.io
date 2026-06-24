@@ -1,6 +1,6 @@
 ---
 title: State Space
-date: 2026-05-10 12:00:00 +0000
+date: 2026-06-24 12:00:00 +0000
 categories: [Quantum Computing]
 tags: [quantum computing, qubit, superposition]
 math: true
