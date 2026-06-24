@@ -121,9 +121,9 @@ comments:
   # Giscus options › https://giscus.app
   giscus:
     repo: rezanematpour/rezanematpour.github.io
-    repo_id:
-    category:
-    category_id:
+    repo_id: R_kgDOSb365A
+    category: Announcements
+    category_id: DIC_kwDOSb365M4C_yEo
     mapping: # optional, default to 'pathname'
     strict: # optional, default to '0'
     input_position: # optional, default to 'bottom'
