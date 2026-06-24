@@ -54,7 +54,7 @@ If we know the *Hamiltonian* of a system, then (together with a knowledge of $\h
 
 Quantum mechanics doesn't tell us the *Hamiltonian* of a system, it just tells: "Once you have $H$, here’s how the system evolves!"
 
-A *Hamiltonian* is a [Hermitian]({% post_url 2026-06-23-hermitian %}) operator: 
+A *Hamiltonian* is a Hermitian operator: 
 -  It has **real eigenvalues** (these are the **possible energies** of the system).
 - The corresponding **eigenvectors** (states $\ket{E}$) form an **orthonormal basis**.
 -  So it has spectral decomposition: $H=\sum_EE\ket{E}\bra{E}$
