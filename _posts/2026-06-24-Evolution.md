@@ -12,7 +12,8 @@ math: true
 $$
 {: .prompt-info }
 
-> **Closed System:** A system that doesn't interact with any other systems.
+Closed System
+: A system that doesn't interact with any other systems.
 
 Quantum mechanics doesn't tell us which unitary operators $U$ describe real-world quantum dynamics. It just assures us that the evolution of a closed system can be described in that way.
 
