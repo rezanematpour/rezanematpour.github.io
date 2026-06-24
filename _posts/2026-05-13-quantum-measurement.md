@@ -1,11 +1,11 @@
 ---
-title: Quantum Measurement
+title: State Space
 date: 2026-05-10 12:00:00 +0000
-categories: [Quantum Computing, Measurement]
-tags: [quantum, measurement, qubit]
+categories: [Quantum Computing]
+tags: [quantum computing, qubit, superposition]
 math: true
 ---
-> Associated to any isolated physical system is a complex vector space with inner product (that is, a Hilbert space) known as the state space of the system. The system is completely described by its state vector, which is a unit vector in the system’s state space.
+> Associated with any isolated physical system is a complex vector space with inner product (that is, a Hilbert space) known as the state space of the system. The system is completely described by its state vector, which is a unit vector in the system’s state space.
 {: .prompt-info }
 
 Quantum mechanics is a mathematical framework for the development of physical theories.
