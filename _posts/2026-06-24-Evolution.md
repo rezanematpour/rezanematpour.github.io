@@ -11,3 +11,16 @@ $$
  \ket{\psi'} = U\ket{\psi}
 $$
 {: .prompt-info }
+
+> **Closed System**:  A system that doesn't interact with any other systems.
+
+Quantum mechanics doesn't tell us which unitary operators $U$ describe real-world quantum dynamics. It just assures us that the evolution of a closed system may be described in that way.  
+Some $U$ examples:
+$X$: bit-flip
+	$Z$: phase-flip
+	$Y$: i-flip
+	Hadamard:  $$
+  \begin{split} H=\frac{1}{\sqrt{2}}\begin{bmatrix} 1 & 1 \\ 1 & -1 \end{bmatrix}\\ \\ H\ket{0}=\frac{\ket{0}+\ket{1}}{\sqrt{2}}
+	 \\ H\ket{1}=\frac{\ket{0}-\ket{1}}{\sqrt{2}}\\
+	 \end{split}
+   $$
