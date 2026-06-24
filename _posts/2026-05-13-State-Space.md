@@ -28,7 +28,7 @@ $$
 $$.
 
 
-# Superposition 
+## Superposition 
 Any linear combination $$ \sum_i\alpha_i\ket{\psi_i} $$ is a superposition of the states $$ \ket{\psi_i} $$ with *amplitude* $$ \alpha_i $$ for the state $$ \ket{\psi_i} $$.
 	Example: 
   
