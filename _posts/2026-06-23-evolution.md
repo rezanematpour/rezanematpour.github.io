@@ -55,35 +55,34 @@ If we know the *Hamiltonian* of a system, then (together with a knowledge of $\h
 Quantum mechanics doesn't tell us the *Hamiltonian* of a system, it just tells: "Once you have $H$, here’s how the system evolves!"
 
 A *Hamiltonian* is a Hermitian operator: 
--  It has **real eigenvalues** (these are the **possible energies** of the system).
-- The corresponding **eigenvectors** (states $\ket{E}$) form an **orthonormal basis**.
+-  It has real eigenvalues (these are the possible energies of the system).
+- The corresponding eigenvectors (states $\ket{E}$) form an orthonormal basis.
 -  So it has spectral decomposition: $H=\sum_EE\ket{E}\bra{E}$
 	- where:
-		- $E$: the **energy** of each state.
-		- $\ket{E}$: corresponding **quantum state**.
-- The **eigenstates** $\ket{E}$ of the Hamiltonian are called **stationary states** because when they evolve in time, they **only** change by a **phase factor**: $\ket{E}\longmapsto e^{-iEt/\hbar}\ket{E}$
-	- This phase factor **does not** change the **probabilities** of measurement outcomes, so these states **don’t change their observable properties** over time—they’re "stationary."
+		- $E$: the energy of each state.
+		- $\ket{E}$: corresponding quantum state.
+- The eigenstates $\ket{E}$ of the Hamiltonian are called stationary states because when they evolve in time, they **only** change by a **phase factor**: $\ket{E}\longmapsto e^{-iEt/\hbar}\ket{E}$
+	- This phase factor does not change the probabilities of measurement outcomes, so these states don’t change their observable properties** over time—they’re "stationary."
 - **Ground State**
-	- The **lowest energy eigenvalue** is called the **ground state energy**.
-	- The corresponding state is called the **ground state**.
-	- All other states are **excited states** (higher energy).
+	- The lowest energy eigenvalue** is called the ground state energy.
+	- The corresponding state is called the ground state.
+	- All other states are excited states (higher energy).
 
- ## Connection between the Hamiltonian picture of dynamics, and the unitary operator picture
+## Connection between the Hamiltonian picture of dynamics, and the unitary operator picture
 Schrodinger’s equation:
+
 $$
-\ket{\psi_{t_2}}=exp[\frac{-iH(t_2-t_1)}{\hbar}]\ket{\psi_{t_1}}=U(t_1,t_2)\ket{\psi_{t_1}}
-$$
-$$
-U(t_1,t_2)\equiv e[\frac{-iH(t_2-t_1)}{\hbar}]
-$$
-$$
-U=e^{-iH(t_2-t_1)}
+\begin{aligned}
+\ket{\psi_{t_2}} &= \exp\!\left(\frac{-iH(t_2 - t_1)}{\hbar}\right)\ket{\psi_{t_1}} \\
+&= U(t_1, t_2)\ket{\psi_{t_1}} \\
+U(t_1, t_2) &\equiv \exp\!\left(\frac{-iH(t_2 - t_1)}{\hbar}\right)
+\end{aligned}
 $$
 
 > Any unitary operator $U$ can be written as: $U=e^{(iK)}$ for some Hermitian operator $K$.
-It means unitary evolution (like quantum gates in quantum computing) is equivalent to **continuous-time evolution** under some **Hamiltonian-like** operator $K$.
-- In **discrete-time** (like in quantum circuits), we usually use **unitary gates**.
-- In **continuous-time** (like natural evolution of atoms), we describe evolution via **Hamiltonians**.
+It means unitary evolution (like quantum gates in quantum computing) is equivalent to continuous-time evolution under some **Hamiltonian-like operator $K$.
+- In discrete-time (like in quantum circuits), we usually use unitary gates.
+- In continuous-time (like natural evolution of atoms), we describe evolution via Hamiltonians.
 
 > This bridge—between unitary gates (quantum computing) and time-dependent Hamiltonians (quantum physics)—is what makes quantum control possible!
 {: .prompt-tip }
