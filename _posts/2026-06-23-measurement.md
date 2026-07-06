@@ -24,28 +24,37 @@ comments: true
 
 
 **Example**
+
 We want to measure a qubit in the $\{\ket{0},\ket{1}\}$ basis. 
 We choose our measurement operators: $$M_0=\ket{0}\bra{0} \,\ ,\ M_1=\ket{1}\bra{1}$$
-First we should check the completeness of our measurement operators:
+First, we should check the completeness of our measurement operators:
+
 $$
 M_0^\dagger M_0+M_1^\dagger M_1=I
 $$
+
 $$
 M^\dagger_0=M_0=\begin{bmatrix} 1 & 0 \\ 0 & 0\end{bmatrix}
 $$
+
 $$
 M^\dagger_1=M_1=\begin{bmatrix} 0 & 0 \\ 0 & 1\end{bmatrix}
 $$
+
 $$
 M^\dagger_0=M_0=\begin{bmatrix} 1 & 0 \\ 0 & 0\end{bmatrix}
 $$
+
 $$
 M_0^\dagger M_0+M_1^\dagger M_1=\begin{bmatrix} 1 & 0 \\ 0 & 1\end{bmatrix}=I
 $$
 
 Now we want to calculate the probabilities. If $\ket{\psi}=\alpha\ket{0}+\beta\ket{1}$, then 
-$$p(0)=\bra{\psi}M_0\ket{\psi}=|\alpha|^2, \ \ p(1)=|\beta|^2
+
 $$
+p(0)=\bra{\psi}M_0\ket{\psi}=|\alpha|^2, \ \ p(1)=|\beta|^2
+$$
+
 The post-measurement states:
 	If outcome is $0$: $\frac{M_0\ket{\psi}}{\sqrt{|\alpha^2|}}=\frac{\alpha\ket{\psi}}{|\alpha|} \cong \ket{0}$
 	If outcome is $1$: $\frac{M_1\ket{\psi}}{\sqrt{|\beta^2|}}=\frac{\beta\ket{\psi}}{|\beta|} \cong \ket{1}$
@@ -58,15 +67,17 @@ The post-measurement states:
 1. **First measurement** $\{L_l\}$ on $\ket{\psi}$:  
    - $p(l) = \bra{\psi}\,L_l^\dagger L_l\,\ket{\psi}$.  
    - (Unnormalized) post-measurement state: $L_l\ket{\psi}$.
-1. **Second measurement** $\{M_m\}$ on $L_l\ket{\psi}$:  
-   - Conditional probability  
+2. **Second measurement** $\{M_m\}$ on $L_l\ket{\psi}$:  
+   - Conditional probability
+   
      $$
        p(m\mid l)
        = \frac{\bra{\psi}\,L_l^\dagger M_m^\dagger M_m L_l\,\ket{\psi}}
               {\bra{\psi}\,L_l^\dagger L_l\,\ket{\psi}}.
      $$
-
+     
 3. **Joint probability**
+
    $$
      p(l,m)
      = p(l)\,p(m\mid l)
@@ -76,7 +87,8 @@ The post-measurement states:
 
 ### 2. Post-Measurement State Agrees
 
-- Cascaded collapse (outcome $(l,m)$):  
+- Cascaded collapse (outcome $(l,m)$):
+
   $$
     \frac{M_m\bigl(L_l\ket{\psi}\bigr)}
          {\sqrt{\bra{\psi}\,L_l^\dagger L_l\,\ket{\psi}}\;\sqrt{\bra{\psi}\,L_l^\dagger M_m^\dagger M_m L_l\,\ket{\psi}}}
@@ -90,11 +102,13 @@ The post-measurement states:
 ### 3. Completeness (Total Probability = 1)
 
 To be valid, $\{N_{lm}\}$ must satisfy  
+
 $$
   \sum_{l,m} N_{lm}^\dagger N_{lm} \;=\; I.
 $$
 
 Compute:
+
 $$
 \begin{aligned}
 \sum_{l,m} N_{lm}^\dagger N_{lm}
@@ -120,13 +134,15 @@ Here, we used the completeness of each set:
 Hence, cascaded measurements $\{L_l\}$ then $\{M_m\}$ form a single POVM $\{N_{lm}=M_mL_l\}$.
 
 
-# Why $\braket{\psi|M_{m}^{\dagger}M_{m}|\psi}$?
+**Why $\braket{\psi|M_{m}^{\dagger}M_{m}|\psi}$?**
 $\braket{\psi|M_{m}^{\dagger}M_{m}|\psi}$ is a real and positive(non-negative) scaler.
 Since $M_m$ is a hermitian operator, $M_{m}^{\dagger}M_{m}$ is also a hermitian operator: 
+
 $$
 \begin{align}
 (M_{m}^{\dagger}M_{m})^{\dagger}&=M_{m}^{\dagger}M_{m} \\ \braket{\psi|M_{m}^{\dagger}M_{m}|\psi}&=\braket{\psi|M^{\dagger}(M|\psi})=(M\ket{{\psi}})^{\dagger}(M\ket{{\psi}})=|\lvert M\ket{{\psi}} \rvert|^2 
 \end{align}
 $$
+
 and since the norm squared of any matrix is always non-negative, $\braket{\psi|M_{m}^{\dagger}M_{m}|\psi}$ is always non-negative, and since $M$ is hermitian, it is real. 
 
