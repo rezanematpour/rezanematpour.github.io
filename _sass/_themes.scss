@@ -20,10 +20,12 @@
   --global-divider-color: rgba(0, 0, 0, 0.1);
   --global-card-bg-color: #{v.$white-color};
   --global-highlight-color: #{v.$red-color-dark};
-  --global-back-to-top-bg-color: rgba(#{color.channel(v.$black-color, "red", v.$space: rgb)},
+  --global-back-to-top-bg-color: rgba(
+    #{color.channel(v.$black-color, "red", v.$space: rgb)},
     #{color.channel(v.$black-color, "green", v.$space: rgb)},
     #{color.channel(v.$black-color, "blue", v.$space: rgb)},
-    0.4);
+    0.4
+  );
   --global-back-to-top-text-color: #{v.$white-color};
   --global-newsletter-bg-color: #{v.$white-color};
   --global-newsletter-text-color: #{v.$black-color};
@@ -87,10 +89,12 @@ html[data-theme="dark"] {
   --global-distill-app-color: #{v.$grey-color-light};
   --global-divider-color: #424246;
   --global-card-bg-color: #{v.$grey-900};
-  --global-back-to-top-bg-color: rgba(#{color.channel(v.$white-color, "red", v.$space: rgb)},
+  --global-back-to-top-bg-color: rgba(
+    #{color.channel(v.$white-color, "red", v.$space: rgb)},
     #{color.channel(v.$white-color, "green", v.$space: rgb)},
     #{color.channel(v.$white-color, "blue", v.$space: rgb)},
-    0.5);
+    0.5
+  );
   --global-back-to-top-text-color: #{v.$black-color};
   --global-newsletter-bg-color: #{v.$grey-color-light};
   --global-newsletter-text-color: #{v.$grey-color-dark};
