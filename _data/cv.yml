@@ -1,189 +1,271 @@
+# Complete CV for al_folio_cv rendercv. Research and Teaching Experience require the local render.liquid override.
+# IMPORTANT: Replace the inherited Einstein summary before publishing.
+# Certificate URLs can be added once verified.
 cv:
   name: Reza Nematpour
-  label: Scientist
   email: r.nematpour.g@gmail.com
-  location: Tabriz, Iran
-  image: ""
-  summary: A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time
-
+  location: null
+  image: ''
+  summary: A German-born theoretical physicist, widely ranked among the greatest and most influential scientists
+    of all time
   social_networks:
-    - network: X
-      username: AlbertEinstein
-    - network: GitHub
-      username: example
-    - network: LinkedIn
-      username: example
-
+  - network: GitHub
+    username: rezanematpour
+  - network: LinkedIn
+    username: rezanematpour
   address:
-    street: 2712 Broadway St
-    city: San Francisco
-    region: California
-    postalCode: CA 94115
-    countryCode: US
-
+    street: null
+    city: Tabriz
+    region: Iran
+    postalCode: null
+    countryCode: IR
   sections:
-    Education:
-      - institution: University of Tehran
-        location: Zurich, Switzerland
-        url: https://www.uzh.ch/
-        area: Physics
-        studyType: PhD
-        start_date: 1900
-        end_date: 1905
-        score: ""
-        courses: "Theory of Relativity"
-        highlights:
-          - Description 1.
-          - Description 2.
-
-      - institution: Eidgenössische Technische Hochschule
-        location: Zurich, Switzerland
-        area: Physics
-        studyType: Federal teaching diploma
-        start_date: 1896
-        end_date: 1900
-        highlights:
-          - Description 1.
-          - Description 2.
-
-    Experience:
-      - company: Institute for Advanced Study, Princeton University
-        position: Professor of Theoretical Physics
-        location: Princeton University, NJ
-        start_date: 1933
-        end_date: 1955
-        summary: Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.
-        highlights:
-          - Relativity
-          - Description 2.
-
-      - company: California Institute of Technology
-        position: Visiting Professor
-        location: Pasadena, California, US
-        start_date: 1933
-        end_date: 1933
-        highlights:
-          - Description 1.
-          - Description 2.
-
-      - company: Kaiser Wilhelm Institute for Physics
-        position: Director
-        location: Berlin, Germany
-        start_date: 1917
-        end_date: 1933
-
-      - company: Karl-Ferdinand University
-        position: Professor of Theoretical Physics
-        location: Prague, Czechoslovakia
-        start_date: 1911
-        end_date: 1917
-
-      - company: University of Zurich
-        position: Associate Professor of Theoretical Physics
-        location: Zurich, Switzerland
-        start_date: 1909
-        end_date: 1911
-
-    Volunteer:
-      - company: People's Climate March
-        position: Lead Organizer
-        location: Zurich, Switzerland
-        start_date: 2014-04-01
-        end_date: 2015-07-01
-        summary: Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.
-        highlights:
-          - "Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march."
-          - "Men of the year 2014 by Time magazine"
-
-    Awards:
-      - title: Nobel Prize in Physics
-        authors:
-          - "Royal Swedish Academy of Sciences"
-        date: 1921-11-01
-        awarder: Royal Swedish Academy of Sciences
-        url: https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/
-        summary: The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'
-
-      - title: Max Planck Medal
-        authors:
-          - "German Physical Society"
-        date: 2029
-        awarder: German Physical Society
-        summary: Awarded for outstanding scientific achievement
-
-    Publications:
-      - title: Zur Elektrodynamik bewegter Körper
-        authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-06-30
-        url: https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies
-        summary: It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source.
-
-      - title: Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt
-        authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-03-18
-        url: https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt
-        summary: In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921.
-
-      - title: Die Grundlage der allgemeinen Relativitätstheorie
-        authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1916-03-20
-        url: https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie
-        summary: The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914).
-
-    Skills:
-      - name: Physics
-        level: Master
-        icon: fa-solid fa-hashtag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
-
-    Languages:
-      - name: German
-        summary: "Native speaker"
-
-      - name: English
-        summary: "Fluent"
-
     Interests:
-      - name: Physics
-        icon: fa-solid fa-tag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
-
-    Certificates:
-      - name: Machine Learning
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-location-dot
-
-      - name: Quantum Computing
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-tag
-
-      - name: Quantum Information
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-envelope
-
+    - name: Physics
+      icon: fa-solid fa-tag
+      keywords: Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication,
+        Quantum Teleportation
+    - name: Machine Learning
+      icon: fa-solid fa-tag
+      keywords: Probabilistic Forecasting, Uncertainty Aware Modeling
+    Education:
+    - institution: University of Tehran
+      location: Tehran, Iran
+      url: https://ut.ac.ir/en
+      studyType: Master's Degree
+      area: Algorithms and Computation
+      faculty: School of Engineering Science, College of Engineering
+      start_date: 2023-09
+      end_date: 2026-12
+      highlights:
+      - 'GPA: 18.17/20'
+      - 'Expected graduation: December 2026'
+    - institution: University of Tehran
+      location: Tehran, Iran
+      url: https://ut.ac.ir/en
+      studyType: Bachelor's Degree
+      area: Economics
+      faculty: Faculty of Economics
+      start_date: 2018-09
+      end_date: 2022-09
+      highlights:
+      - 'GPA: 16.84/20'
+    Research Experience:
+    - company: Institute for Applied Intelligent Systems
+      position: Co-researcher
+      location: University of Tehran, Tehran, Iran
+      start_date: 2022-09
+      end_date: 2023-06
+      summary: Trade Capacities of 15 Neighboring Countries to Support Iran’s Economic Development
+      highlights:
+      - Collaborated with lead researcher Zahra Bakaiean to assess trade capacities with 15 neighboring countries
+        and identify opportunities for export and production diversification.
+      - Analyzed trade data in Python using trade indices, RCA, ECI, PCI, and product-space methods.
+      - Contributed to identifying 17 products within Iran’s production capabilities that could increase its
+        economic complexity.
+    - company: LBB Lab, University of Tehran
+      position: Researcher
+      start_date: '2023'
+      end_date: '2024'
+      summary: Game-Theoretic Modeling of Viral Immune Evasion (three-month exploratory project)
+      highlights:
+      - Reviewed literature to inform a game-theoretic approach to modeling viral immune evasion.
+      - Drafted an initial game formulation representing strategic interactions between viruses and the host
+        immune system.
+      - Conducted a preliminary feasibility assessment, identifying the proposed formulation’s scale and computational
+        requirements as barriers to practical implementation.
+    - company: University of Tehran
+      position: Researcher
+      start_date: '2022'
+      end_date: '2022'
+      summary: Evaluation of Iran’s Agricultural and Food Industry Capacities Compared to Global Standards
+      highlights:
+      - Assessed Iran’s agricultural production potential relative to international benchmarks.
+      - Analyzed industrial strategies for enhancing food exports and innovation.
+      - Developed policy recommendations based on comparative economic analysis.
+    - company: University of Tehran
+      position: Master's Thesis
+      start_date: '2023'
+      end_date: Present
+      summary: 'Investigation and Development of Novel Generative Adversarial Networks for Financial Time-Series
+        Forecasting (expected defense: December 2026)'
+      highlights:
+      - Developed hybrid quantum–classical generative adversarial model.
+      - Using stock and exchange-traded fund (ETF) price time series as the current dataset for financial forecasting.
+      - Preparing a manuscript on quantum inductive biases for financial modelling, examining how the mathematical
+        structure of quantum models shapes learning and under what conditions these biases could offer advantages
+        over classical approaches.
+      - 'Supervisor: Dr. Zahra Shaterzadeh-Yazdi; Advisor: Dr. Ali Fahim.'
+    - company: University of Tehran
+      position: Ongoing Research Paper
+      start_date: Ongoing
+      summary: Quantum inductive bias in finance
+      highlights:
+      - Analyzing quantum inductive biases in finance.
+      - 'Advisor: Dr. Ali Fahim.'
+    Teaching Experience:
+    - company: University of Tehran
+      position: Teaching Assistant — Quantum Algorithms and Computation
+      start_date: 2026-09
+      end_date: Present
+      summary: 'Course instructor: Dr. Zahra Shaterzadeh-Yazdi.'
+      highlights:
+      - Designed the full curriculum for a master’s- and doctoral-level course, selected instructional resources,
+        and developed all lecture slides and teaching materials used by the instructor.
+      - Develop and deliver lectures on advanced topics beyond the core textbook, synthesizing material from
+        research publications.
+      - Advise the course instructor weekly on course content, teaching materials, and instructional improvements.
+      - Develop PennyLane coding assignments; design, supervise, and assess student research projects.
+    - company: University of Tehran
+      position: Teaching Assistant — Advanced Algorithms
+      start_date: '2023'
+      end_date: '2024'
+      highlights:
+      - Assisted in teaching the Algorithmic and Computational Game Theory section of the Advanced Algorithms
+        course.
+      - Supported graduate students in understanding Nash equilibria, mechanism design, and algorithmic strategies
+        in competitive environments.
+      - Designed problem sets and tutorial sessions focusing on theoretical aspects and practical applications
+        of game theory.
+    - company: University of Tehran
+      position: Teaching Assistant — Distributed Systems
+      start_date: '2023'
+      end_date: '2024'
+      summary: 'Course instructor: Dr. Ali Kamandi.'
+      highlights:
+      - Developed teaching materials and designed and graded assignments and examinations for a master’s-level
+        course in distributed algorithms and systems.
+      - Designed and assessed Hyperledger-based projects and guided students through course concepts, assignments,
+        and project implementation.
+    - company: University of Tehran
+      position: Instructor — Smart Contract Development
+      start_date: '2023'
+      end_date: '2024'
+      summary: 'Supervisor: Dr. Ali Kamandi.'
+      highlights:
+      - Introduced and independently taught the University of Tehran’s first smart contract development course
+        for master’s students.
+      - Delivered weekly lectures on advanced smart contract development, covering stablecoins, DeFi protocols,
+        DAOs, contract testing, fuzz testing, and manual verification.
+      - Designed advanced assignments and projects, including voting systems using zero-knowledge proofs and
+        blockchain-based gaming applications on test networks.
+    - company: University of Tehran
+      position: Teaching Assistant — Economics of Engineering
+      start_date: '2023'
+      end_date: '2024'
+      summary: 'Course instructor: Dr. Ali Kamandi.'
+      highlights:
+      - Independently designed and graded assignments and examinations covering cost analysis, investment evaluation,
+        and decision-making under uncertainty.
+      - Supported undergraduate engineering students in applying economic concepts and evaluating startup ideas
+        as final projects.
+    - company: University of Tehran
+      position: Teaching Assistant — Computer Use in Economics
+      start_date: '2022'
+      end_date: '2024'
+      summary: 'Course instructor: Saeed Saffari.'
+      highlights:
+      - Selected as a teaching assistant based on outstanding academic performance and technical expertise
+        in computational economics.
+      - Assisted instructors in teaching Python, R, and Stata for economic and financial data analysis over
+        three consecutive semesters.
+      - Guided students through practical projects, including dynamic pricing using machine-learning algorithms.
+      - Supported students’ technical proficiency in data-driven economic research.
+      - Held tutoring sessions on statistical programming, data visualization, and applied econometrics.
     Projects:
-      - name: Quantum Computing
-        summary: Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.
-        highlights:
-          - Quantum Teleportation
-          - Quantum Cryptography
-        start_date: 2018-01-01
-        end_date: 2018-01-01
-
-    References:
-      - name: Professor John Doe
-        icon: fa-solid fa-laptop
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
-
-      - name: Professor Jane Smith
-        icon: fa-solid fa-thumbtack
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
+    - name: Quantum Computing
+      summary: Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement
+        to perform computation. Computers that perform quantum computations are known as quantum computers.
+      highlights:
+      - Quantum Teleportation
+      - Quantum Cryptography
+      start_date: '2018-01-01'
+      end_date: '2018-01-01'
+    Honors and Awards:
+    - title: National Entrance Examination Rankings (Konkour)
+      date: '2023'
+      awarder: Iranian national university entrance examinations
+      summary: '2023 master’s entrance examination for Computer Engineering: rank 228 of approximately 20,000
+        in Software Engineering, Bioinformatics, Data Science, and Algorithms and Computation; rank 229 in
+        Artificial Intelligence; rank 256 in Computer Networks, Cybersecurity, and IT; rank 269 in Computer
+        Architecture.'
+    - title: Humanities Bachelor’s Entrance Examination
+      date: '2018'
+      awarder: Iranian national university entrance examinations
+      summary: Ranked 126th out of 204,936 participants in the 2017 examination for 2018 admission.
+    - title: Letter of Appreciation — 19th Khwarizmi Youth Festival
+      date: '2018'
+      awarder: National Organization for Development of Exceptional Talents and Young Scholars, Ministry of
+        Education, Iran
+      summary: Recognized for a first-author paper in Social Sciences and Psychology titled “Study of the Causes
+        and Contributing Factors Behind the Formation of Germany’s Totalitarian Movement”.
+    - title: National Organization for Development of Exceptional Talents (NODET)
+      date: '2015'
+      awarder: NODET
+      summary: Admitted to a NODET high school through a competitive examination; ranked first by GPA in the
+        Humanities track for three consecutive academic years; maintained a GPA of 20/20 over the final two
+        years (2015–2018).
+    - title: Kaggle Machine Learning Competitions
+      date: '2019'
+      awarder: Kaggle
+      summary: 'Through self-study without prior formal machine-learning coursework: top 1% in Titanic, top
+        2% in Digit Recognizer, top 2% in House Prices, and top 4% in NLP with Disaster Tweets.'
+    Sports and Cultural Achievements:
+    - bullet: '**Professional Handball Player** (2007–2015): Shahrdari-Tabriz Handball Team'
+    - bullet: '**Literary Criticism Competition — Second Place** (2015–2016): District-level cultural and artistic
+        competition'
+    - bullet: '**School Basketball Competition — Second Place** (2015–2015): High-school basketball competition,
+        Tabriz, Iran'
+    Skills:
+    - name: Programming Languages
+      keywords: Python, R, JavaScript, Solidity, Stata, Bash, SQL
+    - name: Frameworks and Tools
+      keywords: PennyLane, Qiskit, PyTorch, TensorFlow, Scikit-learn, Pandas, NumPy, Spark, Hadoop, Git
+    Languages:
+    - name: English
+      summary: Proficient
+    - name: Persian
+      summary: Native
+    - name: Azerbaijani
+      summary: Native
+    - name: Turkish
+      summary: Intermediate
+    - name: Arabic
+      summary: Elementary
+    Certificates:
+    - name: 'Deep Learning with PyTorch: Generative Adversarial Network'
+      issuer: Coursera Project Network
+      date: 2025-09
+    - name: Basics of Quantum Information
+      issuer: IBM
+      date: 2025-07
+    - name: Quantum Enigmas
+      issuer: IBM
+      date: 2025-04
+    - name: Quantum Computing & Programming
+      issuer: QWorld
+      date: 2025-01
+    - name: Advanced Learning Algorithms
+      issuer: DeepLearning.AI and Stanford University — Coursera
+      date: '2024-10-01'
+    - name: 'Supervised Machine Learning: Regression and Classification'
+      issuer: DeepLearning.AI and Stanford University — Coursera
+      date: '2024-09-17'
+    - name: Healthcare, Bioinformatics, and Computational Biology (HBC2024)
+      issuer: Rayazi Research Group and RSG-Iran
+      date: '2024-03-13'
+    - name: Immuno-informatics Analyses in Vaccine Development
+      issuer: Pasteur Institute of Iran
+      date: '2024-02-20'
+    - name: Machine Learning
+      issuer: 'Stanford University — Coursera (instructor: Andrew Ng)'
+      date: '2021-05-23'
+    - name: Basic Turning (Lathe Machining)
+      issuer: Training and Research Center, Machine Sazi Tabriz (80 hours)
+      date: 2020-12
+    - name: Data Science
+      issuer: Tose’e Higher Education Institute (120 hours)
+      date: 2020-07
+    - name: Data Science Math Skills
+      issuer: Coursera
+      date: 2019-05
